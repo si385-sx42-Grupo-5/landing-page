@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+/*-----Navigation-----*/
+#nav-bar{
+	position: sticky;
+	top: 0;
+	z-index: 10;
+}
+.navbar-brand img {
+	height: 80px;
+	padding-left: 30px;
+}
+.navabr-nav li{
+	padding: 0 10px;
+}
+.navabr-nav li{
+	float: right;
+	text-align: left;
+}
+#nav-bar ul li a:hover{
+	color: #007bff !important;
+}
+.navbar{
+	background: #3F3F3F;
+}
+.navbar-toggler{
+	border: none !important;
+}
+.nav-link{
+	color: #3F3F3F !important;
+	font-weight: 600;
+	font-size: 24px;
+	background-color: #00FF75;
+	border-radius: 0.60em;
+	margin: 1em;
+	text-align: center;
+}
+/*------inicio----*/
+#inicio{
+	background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("src/map-home.jpg");
+	position: relative;
+    top: 0;
+    left: 0;
+	width: 100%;
+	text-align: center;
+}
+.img-bg{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.img-front{
+	position: absolute;
+    top: 20%;
+    left: 10%;
+}
+.descarga{
+	position: absolute;
+	top: 10%;
+    left: 40%;
+	background-color: rgba(63,63,63,0.90);
+	padding: 50px 50px;
+	border-radius: 5%;
+}
+.download-text{
+	font-size: 46px;
+	color: #FFF;
+}
+#download-price{
+	font-size: 58px;
+	font-weight: bolder;
+}
+#download-price span{
+	font-size: 36px;
+}
+#download-playstore{
+	height: 10em;
+}
+#download-appstore{
+	height: 10em;
+	top: 10em;
+}
