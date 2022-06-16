@@ -215,3 +215,25 @@ a{
     text-decoration: none!important;
     color: #fff!important;
 }
+/*------about------*/
+.about{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #555;
+}
+#about .btn{
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+.about-container{
+	padding-top: 20px;
+}
+#about h2{
+	padding-top: 20px;
+}
+#about-img{
+	position: absolute;
+	left: 145%;
+	top: 50px;
+	height: 70%;
+}
